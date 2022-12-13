@@ -16,13 +16,13 @@ public class ListClient {
             System.out.println("Incorrect number of arguments");
             System.out.println("No. should be 3");
         }
-        //Get the list
+        //Get the list :10
         Integer nums = Integer.parseInt(args[0]);
-        //Get the list range
+        //Get the list range:100
         Integer range = Integer.parseInt(args[1]);
-        //Get the host
+        //Get the host: localhost
         String host = args[2];
-        //Get the port
+        //Get the port: 8080
         Integer port = Integer.parseInt(args[3]);
 
         //Create new socket to the server
